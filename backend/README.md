@@ -1,5 +1,4 @@
 ﻿# SaleM-2025 Backend - RESTful API  Swagger UI Documentation
-<!-- 🔒 END PROTECTED AUTHOR INFO - KHÔNG XÓA THÔNG TIN TÁC GIẢ 🔒 -->
 ---
 
 ## 📋 Tổng quan
