@@ -278,7 +278,7 @@ Content-Type: application/json
 6. Test các API cần authentication
 
 ### Thông tin tác giả trong Swagger:
-- **Backend Developer:** Nguyễn Văn Hoàng
+- **Backend Developer:** Trầm Tấn Khá
 - **Contact & License:** Hiển thị trong Swagger UI footer
 - **GitHub Link:** Trực tiếp từ Swagger interface
 
@@ -510,10 +510,11 @@ docker-compose exec app bash
 
 <!-- ⚠️ PROTECTED AUTHOR CONTACT - DO NOT DELETE - THÔNG TIN LIÊN HỆ TÁC GIẢ ĐƯỢC BẢO VỆ ⚠️ -->
 
-**Backend Developer:** Nguyễn Văn Hoàng  
-**GitHub:** https://github.com/vanhoangtvu  
-**Phone:** 0889559357  
-**Email:** nguyenhoang4556z@gmail.com
+- **Backend Developer:** Trầm Tấn Khá  
+- **GitHub:** [https://github.com/TanKha04](https://github.com/TanKha04)  
+- **Phone:** 0889559357  
+- **Email:** tramtankhatv@gmail.com  
+
 
 <!-- 🔒 KHÔNG XÓA THÔNG TIN LIÊN HỆ TÁC GIẢ - PROTECTED CONTACT INFO 🔒 -->
 
@@ -525,8 +526,8 @@ Mọi câu hỏi về API, bugs, hoặc feature requests vui lòng tạo issue t
 
 <!-- ⚠️ PROTECTED LICENSE & COPYRIGHT - DO NOT DELETE ⚠️ -->
 
-This project is developed by Nguyễn Văn Hoàng for educational and portfolio purposes.
+This project is developed by Trầm Tấn Khá for educational and portfolio purposes.
 
-**© 2025 Nguyễn Văn Hoàng - vanhoangtvu**
+**© 2025 Trầm Tấn Khá - TanKha04**
 
 <!-- 🔒 PROTECTED COPYRIGHT - KHÔNG XÓA THÔNG TIN BẢN QUYỀN 🔒 -->
