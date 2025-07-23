@@ -1,19 +1,10 @@
 # Git Attributes for SaleM-2025 Project
-# 🔒 PROTECTED BY Nguyễn Văn Hoàng - vanhoangtvu 🔒
-
 /mvnw text eol=lf
 *.cmd text eol=crlf
-
 # Protect author information in key files
 README.md export-ignore=false
 src/main/java/com/example/salem2025/config/SwaggerConfig.java export-ignore=false
-
 # Binary files
 *.jar binary
 *.war binary
 *.class binary
-
-# Author: Nguyễn Văn Hoàng
-# GitHub: vanhoangtvu
-# Email: nguyenhoang4556z@gmail.com
-# 🔒 DO NOT REMOVE AUTHOR ATTRIBUTION 🔒
