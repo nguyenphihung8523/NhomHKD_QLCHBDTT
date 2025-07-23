@@ -473,7 +473,6 @@ curl http://localhost:8081/actuator/health
 
 ### 🐛 Debug Commands:
 ```bash
-# Check container logs
 docker-compose logs app
 docker-compose logs mysql
 
