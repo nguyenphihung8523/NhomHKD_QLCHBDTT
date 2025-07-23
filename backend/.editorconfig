@@ -1,0 +1,29 @@
+# EditorConfig for SaleM-2025 Project
+# 🔒 PROTECTED BY Nguyễn Văn Hoàng - vanhoangtvu 🔒
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.java]
+indent_size = 4
+
+[*.xml]
+indent_size = 4
+
+# Author: Nguyễn Văn Hoàng
+# GitHub: vanhoangtvu
+# Email: nguyenhoang4556z@gmail.com
+# 🔒 DO NOT REMOVE AUTHOR ATTRIBUTION 🔒

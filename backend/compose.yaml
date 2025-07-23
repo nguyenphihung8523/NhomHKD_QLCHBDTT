@@ -1,0 +1,43 @@
+services:
+  mysql:
+    image: 'mysql:8.0'
+    container_name: salem-mysql
+    environment:
+      - 'MYSQL_DATABASE=qlbh'
+      - 'MYSQL_ROOT_PASSWORD=1111'
+    ports:
+      - '3307:3306'
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - salem-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p1111"]
+      timeout: 20s
+      retries: 10
+      interval: 10s
+      start_period: 30s
+
+  app:
+    build: .
+    container_name: salem-app
+    ports:
+      - '8082:8081'
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/qlbh?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=1111
+    networks:
+      - salem-network
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+
+networks:
+  salem-network:
+    driver: bridge
