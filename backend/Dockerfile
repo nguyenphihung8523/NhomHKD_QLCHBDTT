@@ -21,5 +21,5 @@ RUN mvn clean package -DskipTests -B
 # Expose port
 EXPOSE 8082
 
-# Run the jar file (tự động tìm file JAR)
+
 CMD ["sh", "-c", "java -jar target/*.jar"]
